@@ -1,0 +1,16 @@
+@import "./_card_pokemon.scss";
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Outfit;
+}
+
+.wrapper {
+  background: pink;
+  width: 100%;
+}

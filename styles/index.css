@@ -1,0 +1,119 @@
+body {
+  background: rgba(4,0,31,1);
+  background: -moz-linear-gradient(top, rgba(4,0,31,1) 70%, rgba(5,6,39,1) 73%, rgba(11,45,88,1) 92%, rgba(11,47,91,1) 93%, rgba(11,47,91,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(70%, rgba(4,0,31,1)), color-stop(73%, rgba(5,6,39,1)), color-stop(92%, rgba(11,45,88,1)), color-stop(93%, rgba(11,47,91,1)), color-stop(100%, rgba(11,47,91,1)));
+  background: -webkit-linear-gradient(top, rgba(4,0,31,1) 70%, rgba(5,6,39,1) 73%, rgba(11,45,88,1) 92%, rgba(11,47,91,1) 93%, rgba(11,47,91,1) 100%);
+  background: -o-linear-gradient(top, rgba(4,0,31,1) 70%, rgba(5,6,39,1) 73%, rgba(11,45,88,1) 92%, rgba(11,47,91,1) 93%, rgba(11,47,91,1) 100%);
+  background: -ms-linear-gradient(top, rgba(4,0,31,1) 70%, rgba(5,6,39,1) 73%, rgba(11,45,88,1) 92%, rgba(11,47,91,1) 93%, rgba(11,47,91,1) 100%);
+  background: linear-gradient(to bottom, rgba(4,0,31,1) 70%, rgba(5,6,39,1) 73%, rgba(11,45,88,1) 92%, rgba(11,47,91,1) 93%, rgba(11,47,91,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04001f', endColorstr='#0b2f5b', GradientType=0 );
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: Outfit;
+  padding: 40px 0;
+}
+
+.header-page {
+  text-align: center;
+}
+.header-page img {
+  width: 50%;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.pokemon-card {
+  border: 2px solid white;
+  transition: .5s;
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0;
+  flex-grow: 0;
+  margin: 15px;
+}
+.pokemon-card:hover {
+  background-color: rgba(255,255,255, 0.3);
+}
+.pokemon-card img {
+  image-rendering: pixelated;
+  width: 300px;
+}
+
+.link-pokemon {
+  color: white;
+  font-weight: 800;
+  outline: none;
+  text-decoration: none;
+  line-height: 4;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background: pink;
+  width: 100%;
+}
+
+
+/* Estilos de detalle pokemon */
+.btn-volver {
+  background-color: #3e88e3;
+  padding: 8px 15px;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  border-radius: 40px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.detail-pokemon {
+  padding: 15px;
+}
+.detail-pokemon .container-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.detail-pokemon hr {
+  border: 1px solid white;
+  width: 70%;
+  margin: 30px auto;
+}
+.cont-info-pokemon h1 {
+  font-size: 35px;
+}
+.cont-info-pokemon p {
+  margin: 10px 0;
+}
+
+.cont-status {
+  color: white;
+  text-align: center;
+}
+.grid-stats {
+  display: grid;
+}
+.grid-stats progress {
+  margin: 0px auto 15px;
+}
+
+
+/*# sourceMappingURL=index.css.map */
