@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Pokemon Poo</title>
+  </head>
+  <body>
+    <!-- Menú principal -->
+    <nav>
+      <script src="../scripts/shared/navbar.js"></script>
+    </nav>
+
+    
+    <header class="header-page">
+      <img src="/images/logo-pokemon.png" alt="">
+    </header>
+
+    <section class="section-buscar-pokemon">
+      <h1>Buscar Pokemon</h1>
+
+      <form class="form-search" action="">
+        <div class="form-input">
+          <input type="text" name="filter" id="filter" placeholder="Ingrese nombre o id...">
+          <button type="submit" class="btn-search"><img src="../images/search.png" alt=""></button>
+        </div>
+      </form>
+
+      <div class="resultado-busqueda">
+        <div class="img-resultado">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/25.png" alt="">
+        </div>
+        <div class="info-resultado">
+          <h2 class="name">PIKACHU</h2>
+          <p>ID: <span class="idPokemon"></span></p>
+          <p>HABILIDADES: <span class="habilidades"></span></p>
+          <p>PESO: <span class="peso"></span></p>
+          <p>EVOLUCIONES: <span class="evoluciones"></span></p>
+
+          <p>PROGRESO:</p>
+          <div class="progreso"></div>
+
+          <button type="button" class="btn-resultado">SIGUIENTE EVOLUCIÓN</button>
+        </div>
+      </div>
+    </section>
+    
+    
+
+
+
+    <script src="../scripts/http-response.js"></script>
+    <script src="../scripts/dom.js"></script>
+    <script src="../scripts/pokemon.js"></script>
+    <script src="../scripts/search.js"></script>
+  </body>
+</html>

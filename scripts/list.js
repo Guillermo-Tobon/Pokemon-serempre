@@ -16,7 +16,7 @@ function renderList(list = []) {
     const card = document.createElement('div')
     card.classList.add('pokemon-card')
     const image = document.createElement('img')
-    image.src=pokemonInfo.sprites.front_default
+    image.src=pokemonInfo.sprites.other.home.front_default
     card.appendChild(image)
     card.innerHTML = `
       ${card.innerHTML}

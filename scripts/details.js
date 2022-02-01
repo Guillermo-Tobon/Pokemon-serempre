@@ -22,7 +22,7 @@ function renderPokemon({ id, name, weight, abilities, sprites, types, stats }) {
   pokemonInfo.innerHTML = `
     <div class="container-card">
       <div class="cont-img-pokemon">
-        <img src="${sprites.front_default}" width="300" style="image-rendering: pixelated" />
+        <img src="${sprites.other.home.front_default}" width="300" style="image-rendering: pixelated" />
       </div>
 
       <div class="cont-info-pokemon">
